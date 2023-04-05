@@ -1,5 +1,5 @@
 function generateColorScheme() {
-  fetch("https://api.color.pizza/v1/")
+  fetch("https://api.color.pizza/v1/") // api for color codes
     .then((response) => response.json())
     .then((data) => {
       const colors = data.colors;
